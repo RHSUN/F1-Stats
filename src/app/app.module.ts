@@ -9,11 +9,13 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { TeamInfoComponent } from './team-info/team-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    TeamInfoComponent
   ],
   imports: [
     BrowserModule,
